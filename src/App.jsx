@@ -4,6 +4,8 @@ import './App.css'
 import Link from './Link/link';
 import { CiMenuBurger } from "react-icons/ci";
 import { ImCross } from "react-icons/im";
+import PriceOptions from './priceOptions/PriceOptions';
+import LineChart from './LineChart/LineChart';
 
 function App() {
 
@@ -56,6 +58,11 @@ function App() {
 
      
       <h1 className='text-5xl text-center'>Hello React</h1>
+      <PriceOptions></PriceOptions>
+      <LineChart></LineChart>
+
+      
+      
 
      
       

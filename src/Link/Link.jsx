@@ -13,7 +13,7 @@ const Link = ({route}) => {
 
                
 
-            <li className='mr-10  bg-yellow-400'><a href={route.path}>{route.name}</a></li>
+            <li className='mr-10 hover:bg-red-500 rounded  bg-yellow-400'><a href={route.path}>{route.name}</a></li>
             
         </div>
 
